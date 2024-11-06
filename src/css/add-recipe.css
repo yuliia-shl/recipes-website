@@ -1,0 +1,50 @@
+/* Стилі для секції recipe-share */
+.recipe-share {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-share img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.recipe-share h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: var(--primary);
+  text-transform: capitalize;
+}
+
+.recipe-share p {
+  font-size: 16px;
+  color: var(--gray--1);
+  margin: 15px 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--hover);
+}
+
+.button:focus {
+  background-color: var(--pressed);
+  outline: 2px solid var(--hover);
+  outline-offset: 2px;
+}
