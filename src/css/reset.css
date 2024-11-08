@@ -33,6 +33,15 @@ body {
   color: var(--black);
 }
 
+.section {
+  padding: 32px 0;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
