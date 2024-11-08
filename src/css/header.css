@@ -1,0 +1,40 @@
+/* .header-section {}
+
+.container {} */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.header-navigation {
+    align-items: center;
+}
+.header-logo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    color: #000;
+    align-items: center;
+}
+
+.header-logo-icon{
+    width: 24;
+    height: 24;
+    fill: #000;
+    align-items: center;
+}
+.header-logo-color {
+    color: rgba(181, 93, 81, 0.97);
+}
+
+.open-menu-button {
+    border: none;
+    line-height: 0;
+    border-color: transparent;
+}
+
+/* .header-icon {
+} */
