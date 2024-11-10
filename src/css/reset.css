@@ -41,6 +41,18 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.09;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--gray--2);
+  font-weight: 400;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
