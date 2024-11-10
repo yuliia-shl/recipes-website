@@ -17,10 +17,9 @@
   --white: #fff;
   --black: #000;
   /* =====   fonts   ===== */
-  :root {
-    --font-family: 'Roboto', sans-serif;
-    --second-family: 'Inter', sans-serif;
-  }
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Inter', sans-serif;
 }
 
 html {

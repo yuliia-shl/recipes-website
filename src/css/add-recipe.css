@@ -19,15 +19,17 @@
 
 .recipe-share h2 {
   font-size: 32px;
+  font-weight: 500;
+  line-height: 1.09;
   margin-bottom: 24px;
-  color: var(--black);
-  font-family: var(--font-family);
   text-transform: capitalize;
 }
 
 .recipe-share p {
   font-size: 16px;
-  color: var(--gray--1);
+  font-weight: 400;
+  line-height: 1.63;
+  color: var(--gray--2);
   margin-bottom: 24px;
   max-width: 318px;
   text-align: center;
