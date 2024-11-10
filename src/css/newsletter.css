@@ -1,27 +1,26 @@
 .newsletter {
   background-color: var(--light);
   text-align: center;
-  padding: 30px 0;
+  padding: 74px 0;
 }
 
 .newsletter h2 {
-  font-size: 24px;
-  color: var(--primary);
-  margin-bottom: 10px;
-  text-transform: capitalize;
+  margin-bottom: 16px;
 }
 
 .newsletter p {
-  font-size: 16px;
-  color: var(--gray--2);
-  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.44;
+  margin-bottom: 16px;
+  padding: 0 32px;
 }
 
 .newsletter-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 .input-wrapper {
@@ -29,40 +28,42 @@
 }
 
 .input-wrapper input {
-  padding: 10px 40px 10px 15px; /* Простір для іконки */
-  font-size: 16px;
+  padding: 12px 12px 12px 42px; /* Простір для іконки */
+  font-size: 14px;
+  line-height: 1.87;
+  font-weight: 400;
   border: 1px solid var(--gray--4);
-  border-radius: 5px;
-  width: 250px;
+  border-radius: 8px;
+  width: 308px;
   outline: none;
 }
 
 .input-wrapper .icon {
   position: absolute;
-  right: 10px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
   fill: var(--gray--3);
 }
 
-.button {
+.button-news {
   background-color: var(--primary);
   color: var(--white);
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 16px;
-  cursor: pointer;
+  font-weight: 400;
+  line-height: 1.63;
   transition: background-color 0.3s;
+  width: 308px;
 }
 
-.button:hover {
+.button-news:hover {
   background-color: var(--hover);
 }
 
-.button:focus {
+.button-news:focus {
   background-color: var(--pressed);
   outline: 2px solid var(--hover);
   outline-offset: 2px;

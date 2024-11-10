@@ -33,12 +33,25 @@ body {
 }
 
 .section {
-  padding: 36px 0;
+  padding-bottom: 72px;
 }
 
 .container {
   padding: 0 16px;
   margin: 0 auto;
+  width: 398px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.09;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--gray--2);
+  font-weight: 400;
 }
 
 p:last-child {
@@ -56,6 +69,10 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(23, 23, 23, 0.04), 0 2px 4px 0 rgba(23, 23, 23, 0.04),
+    0 7px 7px 0 rgba(23, 23, 23, 0.03), 0 15px 9px 0 rgba(23, 23, 23, 0.02),
+    0 27px 11px 0 rgba(23, 23, 23, 0.01), 0 42px 12px 0 rgba(23, 23, 23, 0);
 }
 
 img {

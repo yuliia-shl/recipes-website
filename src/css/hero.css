@@ -1,0 +1,53 @@
+.hero-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.1;
+  text-align: center;
+  padding: 0 32px;
+  text-transform: capitalize;
+}
+
+.hero-highlight {
+  color: var(--primary);
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.hero-btn-wrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.hero-btn {
+  font-family: var(--font-family);
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 112px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+}
+
+.hero-log-in {
+  background: var(--gray--4);
+  color: var(--black);
+}
+
+.hero-sign-up {
+  background: var(--primary);
+  color: var(--white);
+}
