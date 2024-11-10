@@ -1,0 +1,63 @@
+.grid {
+    display: grid;
+    grid-template-columns: 191px 191px;
+    grid-template-rows: 216px 216px 216px;
+    gap: 16px;
+}
+
+.trending-picture img {
+    margin-bottom: 8px;
+    border-radius: 8px 8px 0 0;
+}
+.rating {
+    display:flex;
+    align-items: flex-end;
+    font-size: 40;
+    line-height: 0.75;
+}
+
+.rating-body {
+    position: relative;
+}
+
+.rating-body::before {
+    content: "★★★★★";
+    color: #a5a5a5;
+    display: block;
+}
+
+.rating-active {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.rating-active::before {
+    content: "★★★★★";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: rgba(181, 93, 81, 0.97);;
+}
+
+.rating-items {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+
+.rating-item {
+    flex: 0 0 20%;
+    height: 100%;
+    opacity: 0;
+}
+
