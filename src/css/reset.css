@@ -17,10 +17,9 @@
   --white: #fff;
   --black: #000;
   /* =====   fonts   ===== */
-  :root {
-    --font-family: 'Roboto', sans-serif;
-    --second-family: 'Inter', sans-serif;
-  }
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Inter', sans-serif;
 }
 
 html {
@@ -33,13 +32,33 @@ body {
   color: var(--black);
 }
 
+.section {
+  padding-bottom: 72px;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+  width: 398px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.09;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--gray--2);
+  font-weight: 400;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -50,6 +69,7 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 img {
