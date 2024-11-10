@@ -49,6 +49,13 @@ h2 {
   text-transform: capitalize;
 }
 
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  color: var(--black);
+}
+
 p {
   color: var(--gray--2);
   font-weight: 400;

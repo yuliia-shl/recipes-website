@@ -1,28 +1,44 @@
+.trending-title{
+    margin-bottom: 22px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 191px 191px;
     grid-template-rows: 216px 216px 216px;
-    gap: 16px;
+    gap: 24px 16px;
+}
+
+.grid-item {
+    border: 1px solid var(--gray--3);
+    border-radius: 8px;
 }
 
 .trending-picture img {
     margin-bottom: 8px;
     border-radius: 8px 8px 0 0;
 }
+.rating-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .rating {
     display:flex;
     align-items: flex-end;
-    font-size: 40;
     line-height: 0.75;
+    margin-bottom: 4px;
 }
 
 .rating-body {
     position: relative;
+    width: 159px;
+    height: 13px;
 }
 
 .rating-body::before {
     content: "★★★★★";
-    color: #a5a5a5;
+    color: var(--gray--3);
     display: block;
 }
 
@@ -43,7 +59,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    color: rgba(181, 93, 81, 0.97);;
+    color: var(--primary);
 }
 
 .rating-items {
