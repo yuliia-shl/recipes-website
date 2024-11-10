@@ -25,10 +25,15 @@
   text-transform: capitalize;
 }
 
-.recipe-share p {
+.recipe-share p,
+.button-share {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.63;
+  font-family: inherit;
+}
+
+.recipe-share p {
   color: var(--gray--2);
   margin-bottom: 24px;
   max-width: 318px;
@@ -41,10 +46,8 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
   transition: background-color 0.3s;
-  text-decoration: none;
+  /* text-decoration: none; */
   box-shadow: 0 0 0 0 rgba(23, 23, 23, 0.04), 0 2px 4px 0 rgba(23, 23, 23, 0.04),
     0 7px 7px 0 rgba(23, 23, 23, 0.03), 0 15px 9px 0 rgba(23, 23, 23, 0.02),
     0 27px 11px 0 rgba(23, 23, 23, 0.01), 0 42px 12px 0 rgba(23, 23, 23, 0);
