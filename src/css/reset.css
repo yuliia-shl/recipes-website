@@ -33,12 +33,13 @@ body {
 }
 
 .section {
-  padding: 36px 0;
+  padding-bottom: 72px;
 }
 
 .container {
   padding: 0 16px;
   margin: 0 auto;
+  width: 398px;
 }
 
 h2 {
@@ -68,6 +69,7 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 img {
