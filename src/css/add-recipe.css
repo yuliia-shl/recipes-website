@@ -1,4 +1,9 @@
 /* Стилі для секції recipe-share */
+.share-container {
+  display: flex;
+  justify-content: center;
+}
+
 .recipe-share {
   display: flex;
   flex-direction: column;
