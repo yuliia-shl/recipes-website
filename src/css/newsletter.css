@@ -34,14 +34,19 @@
 }
 
 .input-wrapper input {
-  padding: 12px 12px 12px 42px; /* Простір для іконки */
+  padding: 12px 12px 12px 42px;
+  /* Простір для іконки */
   font-size: 14px;
   line-height: 1.87;
   font-weight: 400;
-  border: 1px solid var(--gray--4);
+  border: 1px solid var(--gray--3);
   border-radius: 8px;
   outline: none;
   width: 100%;
+}
+
+.input-wrapper input::placeholder {
+  color: var(--gray--3);
 }
 
 .input-wrapper .icon {
