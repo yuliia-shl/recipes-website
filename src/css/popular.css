@@ -1,13 +1,31 @@
-.btn-more {}
+.popular-title {
+  margin-bottom: 24px;
+}
 
-.populat-list {}
+/* .btn-more {} */
 
-.popular-list-item {}
+.populat-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 16px;
+  justify-content: center;
+}
+
+/* .popular-list-item {} */
 
 .popular-hide {
   display: none;
 }
 
-.popular-img {}
+.popular-img {
+  width: 191px;
+  margin-bottom: 28px;
+}
 
-.popular-title {}
+.popular-item-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--black);
+}
