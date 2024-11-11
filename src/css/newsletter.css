@@ -18,6 +18,7 @@
   line-height: 1.44;
   margin-bottom: 16px;
   padding: 0 48px;
+  max-width: 398px;
 }
 
 .newsletter-form {
