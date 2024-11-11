@@ -8,9 +8,11 @@
     justify-content: flex-end;
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: -1;
-    
+    background-image: url(/src/img/background.svg);
+    background-attachment: fixed;
 }
 
 .header-container {
@@ -21,8 +23,8 @@
 
 .header-navigation {
     display: flex;
-    align-items: center;
 }
+
 .header-logo {
     display: flex;
     font-weight: 500;
@@ -36,8 +38,9 @@
     /* display: block; */
     fill: #000;
     margin-right: 6px;
-    
+    /* align-items: center; */
 }
+
 .header-logo-color {
     color: rgba(181, 93, 81, 0.97);
 }
