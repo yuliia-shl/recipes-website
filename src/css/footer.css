@@ -57,8 +57,8 @@
 .footer__link:hover,
 .footer__link:focus {
   color: var(--primary);
-  outline: 2px solid var(--primary);
-  outline-offset: 4px;
+  outline: 1px solid var(--primary);
+  outline-offset: 2px;
 }
 
 .footer__social {
