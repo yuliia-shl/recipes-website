@@ -20,14 +20,6 @@
   max-width: 430px;
 }
 
-/* .newsletter-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-} */
-
 .input-wrapper {
   position: relative;
   margin-bottom: 18px;
