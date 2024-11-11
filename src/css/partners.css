@@ -1,0 +1,16 @@
+.partners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.partners-item svg {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.partners-item svg:hover {
+  opacity: 1;
+}
