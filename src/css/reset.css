@@ -53,10 +53,6 @@ p {
   font-weight: 400;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   list-style: none;
 }
