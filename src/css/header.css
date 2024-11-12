@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.header-logo-icon{
+.header-logo-icon {
     /* display: block; */
     fill: #000;
     margin-right: 6px;
@@ -52,4 +52,5 @@
     border: none;
     line-height: 0;
     background-color: transparent;
+    box-shadow: none;
 }
