@@ -16,7 +16,7 @@
 
 .blog-post-clock,
 .blog-post-sugar {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--gray--4);
   border-radius: 8px;
   padding: 0px 0px 8px 0px;
   width: 100%;
@@ -61,14 +61,16 @@
   font-size: 14px;
   line-height: 1.86;
   text-align: center;
-  color: var(--gray-2);
-  overflow: visible;
+  color: var(--gray--2);
   cursor: pointer;
+  overflow: hidden;
+  max-height: 100px;
+  transition: max-height 0.3s ease;
  
 }
 
 .blog-more-text {
-  display: none;
+  /* display: none; */
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -77,10 +79,17 @@
   transition: max-height  0.3s ease-in-out, opacity 0.3s ease-in-out;
   text-align: justify;
 }
+.blog-post-text,
+.blog-more-text {
+  overflow: hidden;
+  max-height: 100px; /* Задайте початкову висоту, наприклад, 100px */
+  transition: max-height 0.3s ease;
+}
 
-.blog-post-text.visible .blog-more-text {
-  display: block;
-  max-height: 1000px;
+.blog-post-text.visible,
+.blog-more-text.visible {
+  /* display: block; */
+  max-height: 100%;
   opacity: 1;
   padding: 8px;
 }
