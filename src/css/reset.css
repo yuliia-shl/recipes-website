@@ -1,11 +1,57 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+* {
   margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* =====   color   ===== */
+  --primary: rgba(181, 93, 81, 0.97);
+  --hover: #974e44;
+  --pressed: #793e37;
+  --light: #fff0ed;
+  --gray--1: #4c4c4c;
+  --gray--2: #878787;
+  --gray--3: #a5a5a5;
+  --gray--4: #ebebeb;
+  --gray--5: #f5f5f5;
+  --white: #fff;
+  --black: #000;
+  /* =====   fonts   ===== */
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.section {
+  padding-bottom: 72px;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+  width: 430px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.09;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--gray--2);
+  font-weight: 400;
 }
 
 p:last-child {
@@ -13,8 +59,6 @@ p:last-child {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -25,6 +69,10 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(23, 23, 23, 0.04), 0 2px 4px 0 rgba(23, 23, 23, 0.04),
+    0 7px 7px 0 rgba(23, 23, 23, 0.03), 0 15px 9px 0 rgba(23, 23, 23, 0.02),
+    0 27px 11px 0 rgba(23, 23, 23, 0.01), 0 42px 12px 0 rgba(23, 23, 23, 0);
 }
 
 img {
