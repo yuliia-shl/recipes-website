@@ -7,15 +7,15 @@
   padding-bottom: 72px;
 }
 
-.blog-post {
+.blog-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-.blog-post-clock,
-.blog-post-sugar {
+.blog-post,
+.blog-post {
   border: 1px solid var(--gray--4);
   border-radius: 8px;
   padding: 0px 0px 8px 0px;
@@ -82,7 +82,7 @@
 .blog-post-text,
 .blog-more-text {
   overflow: hidden;
-  max-height: 100px; /* Задайте початкову висоту, наприклад, 100px */
+  max-height: 100px; 
   transition: max-height 0.3s ease;
 }
 
