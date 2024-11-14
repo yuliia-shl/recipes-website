@@ -1,29 +1,19 @@
+// Отримуємо всі елементи з прихованим контентом
+const allBlogContents = document.querySelectorAll('.blog-content');
 
+allBlogContents.forEach(content => {
+  const title = content.querySelector('.blog-post-title');
+  const image = content.querySelector('.blog-image');
+  const hiddenContent = content.querySelector('.blog-hidden-content');
+  const blogText = content.querySelector('.blog-post-text');
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Знаходимо обидва блоки (blog-post-clock та blog-post-sugar)
-  const blogSections = document.querySelectorAll('.blog-post-clock, .blog-post-sugar');
+  // Функція для показу/приховування тексту
+  function toggleHiddenContent() {
+    hiddenContent.classList.toggle('visible');
+  }
 
-  // Обробляємо кожен блок окремо
-  blogSections.forEach((section) => {
-    const title = section.querySelector('.blog-post-title');
-    const textBlock = section.querySelector('.blog-post-text');
-    const moreText = section.querySelector('.blog-more-text');
-
-    // Перевіряємо, чи існують елементи
-    if (title && textBlock && moreText) {
-      // Додаємо обробник події на заголовок
-      title.addEventListener('click', () => {
-        // Перемикаємо клас 'visible' для всього текстового блоку та додаткового тексту
-        textBlock.classList.toggle('visible');
-        moreText.classList.toggle('visible');
-      });
-
-      // Додаємо обробник події на основний текст
-      textBlock.addEventListener('click', () => {
-        textBlock.classList.toggle('visible');
-        moreText.classList.toggle('visible');
-      });
-    }
-  });
+  // Додаємо обробники подій для заголовка, тексту та зображення
+  title.addEventListener('click', toggleHiddenContent);
+  image.addEventListener('click', toggleHiddenContent);
+  blogText.addEventListener('click', toggleHiddenContent);
 });
