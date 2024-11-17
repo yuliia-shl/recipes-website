@@ -32,6 +32,12 @@ body {
   color: var(--black);
 }
 
+.logo-text {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
 .section {
   padding-bottom: 72px;
 }
@@ -61,6 +67,23 @@ h2 {
 
   h1 {
     font-size: 48px;
+  }
+
+  .logo-text {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .view-more {
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .view-more:hover,
+  .view-more:focus {
+    color: var(--hover);
   }
 }
 
