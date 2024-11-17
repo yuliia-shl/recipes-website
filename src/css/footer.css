@@ -1,6 +1,6 @@
 .footer {
   padding: 64px 0;
-  background-color: var(--light);
+  background-color: var(--gray--5);
 }
 
 .footer__top {
