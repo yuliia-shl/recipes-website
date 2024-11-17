@@ -1,0 +1,104 @@
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-container h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.09;
+  color: var(--black);
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.blog-content {
+  border: 1px solid var(--gray--4);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.blog-content:last-child {
+  margin-bottom: 0;
+}
+
+.blog-image {
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 8px;
+  object-fit: cover;
+}
+
+.blog-post-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+  text-align: center;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.blog-post-text {
+  text-align: justify;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  color: var(--gray--2);
+  cursor: pointer;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.blog-intro {
+  text-align: justify;
+}
+
+.blog-hidden-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.blog-hidden-content.visible {
+  max-height: 100%;
+  opacity: 1;
+}
+
+.blog-paragraph {
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: justify;
+}
+
+.blog-subtitle {
+  font-size: 16px;
+  color: var(--gray--2);
+}
+
+.blog-list {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  list-style: disc;
+  text-align: justify;
+}
+strong {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.blog-benefits {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  list-style: square;
+  text-align: justify;
+}
+.blog-conclusion {
+  margin-bottom: 0px;
+  text-align: justify;
+  color: var(--gray--1);
+  font-style: italic;
+}
