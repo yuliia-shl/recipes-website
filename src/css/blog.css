@@ -1,11 +1,6 @@
 .blog-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 430px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .blog-container h2 {
@@ -21,18 +16,17 @@
 .blog-content {
   border: 1px solid var(--gray--4);
   border-radius: 8px;
-  padding: 0px 0px 8px 0px;
-  width: 100%;
-  height: auto;
   margin-bottom: 24px;
 }
 
 .blog-image {
-  width: 100%;
-  height: auto;
   border-radius: 8px 8px 0 0;
   margin-bottom: 8px;
   object-fit: cover;
+}
+
+.blog-content:nth-child(2) {
+  margin-bottom: 0;
 }
 
 .blog-post-title {
