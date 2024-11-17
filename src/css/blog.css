@@ -19,14 +19,14 @@
   margin-bottom: 24px;
 }
 
+.blog-content:last-child {
+  margin-bottom: 0;
+}
+
 .blog-image {
   border-radius: 8px 8px 0 0;
   margin-bottom: 8px;
   object-fit: cover;
-}
-
-.blog-content:nth-child(2) {
-  margin-bottom: 0;
 }
 
 .blog-post-title {
