@@ -13,6 +13,7 @@
   display: flex;
   font: 500 20px / 1.1 var(--font-family);
   margin-bottom: 12px;
+  align-items: center;
 }
 
 .footer__logo svg {
