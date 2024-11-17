@@ -14,10 +14,37 @@
     border-radius: 8px;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.flag {
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    border: 1px solid var(--gray--4);
+    border-radius: 7px;
+    width: 32px;
+    height: 32px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bookmark-icon {
+    width: 13px;
+    height: 16px;
+    fill: var(--primary);
+}
+
 .trending-picture img {
     margin-bottom: 8px;
     border-radius: 8px 8px 0 0;
 }
+
 .rating-wrapper {
     padding-left: 16px;
     padding-right: 16px;
