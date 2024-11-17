@@ -32,6 +32,12 @@ body {
   color: var(--black);
 }
 
+.logo-text {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
 .section {
   padding-bottom: 72px;
 }
@@ -39,7 +45,7 @@ body {
 .container {
   padding: 0 16px;
   margin: 0 auto;
-  width: 430px;
+  max-width: 430px;
 }
 
 h2 {
@@ -47,6 +53,57 @@ h2 {
   font-weight: 500;
   line-height: 1.09;
   text-transform: capitalize;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+    max-width: 1024px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 1.44;
+  }
+
+  .logo-text {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .view-more {
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .view-more:hover,
+  .view-more:focus {
+    color: var(--hover);
+  }
 }
 
 p {
@@ -69,6 +126,13 @@ button {
   box-shadow: 0 0 0 0 rgba(23, 23, 23, 0.04), 0 2px 4px 0 rgba(23, 23, 23, 0.04),
     0 7px 7px 0 rgba(23, 23, 23, 0.03), 0 15px 9px 0 rgba(23, 23, 23, 0.02),
     0 27px 11px 0 rgba(23, 23, 23, 0.01), 0 42px 12px 0 rgba(23, 23, 23, 0);
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    font-size: 18px;
+    line-height: 1.44;
+  }
 }
 
 img {
