@@ -46,16 +46,33 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease-in-out;
   background: var(--primary);
 }
 
-.button-share:hover {
+.button-share:hover,
+.button-share:focus {
   background-color: var(--hover);
 }
 
 .button-share:focus {
-  background-color: var(--pressed);
-  outline: 2px solid var(--hover);
-  outline-offset: 2px;
+  outline: 1px solid var(--hover);
+  outline-offset: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-share {
+    flex-direction: row;
+    gap: 20px;
+    max-width: 960px;
+  }
+
+  .recipe-wrapper-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-share {
+    width: max-content;
+  }
 }
