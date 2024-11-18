@@ -1,0 +1,66 @@
+.exp-recipes-container {
+  display: flex;
+  flex-direction: column;
+}
+.exp-recipes-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.09;
+  color: var(--black);
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.exp-recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px 16px;
+}
+
+.exp-recipe-item {
+  background: var(--white);
+  border: 1px solid var(--gray--4);
+  border-radius: 8px;
+  padding: 0px 0px 8px 0px;
+  width: 191px;
+  height: 216px;
+  position: relative;
+}
+
+.exp-recipes-image {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  width: 191px;
+  margin-bottom: 8px;
+}
+
+.flag {
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  border: 1px solid var(--gray--4);
+  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.bookmark-icon {
+  width: 13px;
+  height: 16px;
+  fill: var(--primary);
+}
+
+.icon-star {
+  fill: var(--gray--3);
+  margin-right: 4px;
+}
