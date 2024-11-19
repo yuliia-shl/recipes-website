@@ -48,7 +48,7 @@
   }
 
   .partners-item:nth-child(6) {
-    grid-column: span 1; /* Розтягує другий елемент на 2 стовбця */
+    grid-column: span 1;
     margin-right: auto;
   }
 }
