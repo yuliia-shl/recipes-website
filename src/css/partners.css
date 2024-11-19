@@ -29,11 +29,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .partners {
+    padding-bottom: 120px;
+  }
   .partners-list {
     grid-template-columns: repeat(6, minmax(30px, auto));
     gap: 70px;
-    margin-top: 80px;
-    margin-bottom: 80px;
   }
 
   .partners-icon {
