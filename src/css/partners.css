@@ -44,11 +44,9 @@
 
   .partners-item:nth-child(5) {
     grid-column: span 1;
-    margin-left: auto;
   }
 
   .partners-item:nth-child(6) {
     grid-column: span 1;
-    margin-right: auto;
   }
 }
