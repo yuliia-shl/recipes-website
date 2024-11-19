@@ -45,7 +45,7 @@ body {
 .container {
   padding: 0 16px;
   margin: 0 auto;
-  width: 430px;
+  max-width: 430px;
 }
 
 h2 {
@@ -64,7 +64,7 @@ h3 {
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 32px;
-    width: 1024px;
+    max-width: 1024px;
   }
 
   h1 {
@@ -109,10 +109,6 @@ h3 {
 p {
   color: var(--gray--2);
   font-weight: 400;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul {
