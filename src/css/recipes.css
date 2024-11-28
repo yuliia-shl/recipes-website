@@ -11,7 +11,9 @@
   text-align: left;
   margin-bottom: 22px;
 }
-
+.view-more {
+  display: none;
+}
 .exp-recipe-list {
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +65,7 @@
 .icon-star {
   fill: var(--gray--3);
   margin-right: 4px;
+}
+.recipe-meta {
+  display: none;
 }
